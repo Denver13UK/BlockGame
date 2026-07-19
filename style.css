@@ -1,9 +1,14 @@
-html, body {
-    height:100%;
-    margin:0;
+body {
+    display:flex;
+    gap:20px;
 }
 
 #blocklyDiv {
-    height:90vh;
-    width:100%;
+    width:600px;
+    height:600px;
+}
+
+#gameCanvas {
+    border:2px solid black;
+    background:white;
 }
